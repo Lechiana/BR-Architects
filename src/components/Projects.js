@@ -1,5 +1,6 @@
 import React from "react";
-import ProjectItem from "./ProjectItem";
+import ProjectItem1 from "./ProjectItem1";
+import ProjectItem2 from "./ProjectItem2";
 
 class Projects extends React.Component {
   render() {
@@ -10,8 +11,8 @@ class Projects extends React.Component {
           Projects
         </h3>
       </div>
-        <ProjectItem/>
-        <ProjectItem/>
+        <ProjectItem1/>
+        <ProjectItem2/>
         </div>
       
     );

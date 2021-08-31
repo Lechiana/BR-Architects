@@ -1,6 +1,6 @@
 import React from "react";
 
-class ProjectItem extends React.Component {
+class ProjectItem2 extends React.Component {
   render() {
     return (
       <div className="w3-row-padding">
@@ -9,7 +9,7 @@ class ProjectItem extends React.Component {
             <div className="w3-display-topleft w3-black w3-padding">
               Summer House
             </div>
-            <img className="project-item-img" src="https://www.w3schools.com/w3images/house5.jpg" alt="House" />
+            <img className="project-item-img" src="https://www.w3schools.com/w3images/house2.jpg" alt="House" />
           </div>
         </div>
         <div className="w3-col l3 m6 w3-margin-bottom">
@@ -17,7 +17,7 @@ class ProjectItem extends React.Component {
             <div className="w3-display-topleft w3-black w3-padding">
               Brick House
             </div>
-            <img className="project-item-img" src="https://www.w3schools.com/w3images/house2.jpg" alt="House" />
+            <img className="project-item-img" src="https://www.w3schools.com/w3images/house5.jpg" alt="House" />
           </div>
         </div>
         <div className="w3-col l3 m6 w3-margin-bottom">
@@ -25,7 +25,7 @@ class ProjectItem extends React.Component {
             <div className="w3-display-topleft w3-black w3-padding">
               Renovated
             </div>
-            <img className="project-item-img" src="https://www.w3schools.com/w3images/house3.jpg" alt="House" />
+            <img className="project-item-img" src="https://www.w3schools.com/w3images/house4.jpg" alt="House" />
           </div>
         </div>
         <div className="w3-col l3 m6 w3-margin-bottom">
@@ -33,7 +33,7 @@ class ProjectItem extends React.Component {
             <div className="w3-display-topleft w3-black w3-padding">
               Barn House
             </div>
-            <img className="project-item-img" src="https://www.w3schools.com/w3images/house4.jpg" alt="House" />
+            <img className="project-item-img" src="https://www.w3schools.com/w3images/house3.jpg" alt="House" />
           </div>
         </div>
       </div>
@@ -41,4 +41,4 @@ class ProjectItem extends React.Component {
   }
 }
 
-export default ProjectItem;
+export default ProjectItem2;
